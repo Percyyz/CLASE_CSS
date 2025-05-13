@@ -1,0 +1,15 @@
+header{
+    height: 40px;
+    background: green;
+    margin: 0px 0px 10px;
+}
+nav{
+    height: 20px;
+    margin: 0px 0px 10px;
+}
+.primer_nav{
+    background: yellowgreen;
+}
+.segundo_nav{
+    background: cadetblue;
+}
