@@ -1,0 +1,29 @@
+header{
+    height: 30px;
+    border: 2px solid #ff0000;
+    margin-bottom: 10px;
+}
+
+.pad{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+main > aside{
+    border: 2px solid #0023ff;
+    height: 400px;
+    width: 100px;
+}
+
+main > section{
+    border: 2px solid #008000;
+    height: 400px;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+footer{
+    height: 30px;
+    border: 2px solid #ff9b00;
+}
