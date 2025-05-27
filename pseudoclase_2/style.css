@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background: green;
+    height: 150px;
+    width: 150px;
+    transition: all 1s;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+}
+section:hover{
+    background: darkorange;
+    height: 200px;
+    width: 200px;
+    rotate: 360deg;
+    clip-path: inset(0%);
+}
