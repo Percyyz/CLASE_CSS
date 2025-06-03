@@ -1,0 +1,41 @@
+:root{ /*Selector principal*/
+    --amarillo:yellow;
+    --rojo:blue;
+    --verde:cyan;
+}
+*{/*Selector de tipo universal*/
+    padding: 0;
+    margin: 0;
+}
+main{/*selector de etiquetas*/
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+section{
+    height: 100%;
+    width: 33%;
+    margin: 3px;
+}
+.fondo_amarillo{/*Selector de tipo clase*/
+    background: var(--amarillo);
+}
+.fondo_rojo{
+    background: var(--rojo);
+}
+.fondo_verde{
+    background: var(--verde);
+}
+@media(max-width:720px){
+    main{
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    .fondo_rojo{
+        display: none;
+    }
+}
